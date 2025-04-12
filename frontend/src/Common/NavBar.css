@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Logos{
+    width: 16rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.Logos img{
+   height: 200px;
+   
+}
+
+.DeskNav {
+    width: 16rem;
+    background-color: rgb(228, 228, 216);
+    height: 100%;
+    position: absolute;
+}
+
+.Links-Nav nav ul {
+    list-style: none;
+
+margin-left: 45px;
+
+    
+}
+
+.Links-Nav nav ul li {
+    display: flex;
+    
+            
+    margin-top: 7rem;     
+}
+
+.Links-Nav nav ul li img {
+    height: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}

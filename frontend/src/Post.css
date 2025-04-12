@@ -1,0 +1,111 @@
+.post-upload-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+input[type="file"],
+textarea,
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.preview {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.preview img,
+.preview video {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.post-preview {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.post-preview img,
+.post-preview video {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.caption {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.post-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.comment-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.comments {
+  margin-top: 10px;
+}
+
+.comments p {
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.success {
+  color: green;
+  text-align: center;
+}
+
+.posts-section {
+  margin-top: 30px;
+}
